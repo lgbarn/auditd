@@ -38,20 +38,29 @@ Install module with `puppet module install auditd` or use r10k.
 ## Usage
 
 Use the following syntax to get this module working:
-`include auditd`
+
+~~~
+include auditd
+~~~
+
+or 
+
+~~~
+class { 'auditd': }
+~~~
 
 ## Reference
 
 ### Classes
 
 #### Public Classes
-- [`auditd`](#auditd): Installs and configures auditd on your server.
+- `auditd`: Installs and configures auditd on your server.
 
 #### Private Classes
-- [`auditd::config`](#auditdconfig): Configures the module. 
-- [`auditd::install`](#auditdinstall): Installs auditd package on your server.
-- [`auditd::params`](#auditdparams): Handle parameters to module.
-- [`auditd::service`](#auditdservice): Configures auditd service.
+- `auditd::config`: Configures the module. 
+- `auditd::install`: Installs auditd package on your server.
+- `auditd::params`: Handle parameters to module.
+- `auditd::service`: Configures auditd service.
 
 ## Limitations
 
