@@ -42,12 +42,12 @@ Use the following syntax to get this module working:
 
 ## Reference
 
-###Classes
+### Classes
 
-####Public Classes
+#### Public Classes
 - [`auditd`](#auditd): Installs and configures auditd on your server.
 
-####Private Classes
+#### Private Classes
 - [`auditd::config`](#auditdconfig): Configures the module. 
 - [`auditd::install`](#auditdinstall): Installs auditd package on your server.
 - [`auditd::params`](#auditdparams): Handle parameters to module.
