@@ -64,7 +64,7 @@ class { 'auditd': }
 
 ## Limitations
 
-This module has only been tested on RedHat,CentOS and it derivatives. i
+This module has only been tested on RedHat,CentOS and it derivatives. 
 All other distributions are not supported.
 
 ## Development
