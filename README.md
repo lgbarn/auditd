@@ -55,6 +55,7 @@ class { 'auditd': }
 
 #### Public Classes
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `auditd`: Installs and configures auditd on your server.
 
 <<<<<<< HEAD
@@ -77,10 +78,18 @@ class { 'auditd': }
 - [`auditd::service`](#auditdservice): Configures auditd service.
 >>>>>>> e4b38a3... added space for proper markdown formatting
 =======
+=======
+- `auditd`: Installs and configures auditd on your server.
+
+#### Private Classes
+>>>>>>> 5bc0cb1... added module install specifics
 - `auditd::config`: Configures the module. 
 - `auditd::install`: Installs auditd package on your server.
 - `auditd::params`: Handle parameters to module.
 - `auditd::service`: Configures auditd service.
+<<<<<<< HEAD
+>>>>>>> 5bc0cb1... added module install specifics
+=======
 >>>>>>> 5bc0cb1... added module install specifics
 
 ## Limitations
