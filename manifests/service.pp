@@ -48,6 +48,9 @@ class auditd::service inherits auditd {
       name       => $::auditd::params::service_name,
       hasstatus  => $::auditd::params::service_hasstatus,
       hasrestart => $::auditd::params::service_hasrestart,
+      restart    => $::auditd::params::service_restart,
+      stop       => $::auditd::params::service_stop,
+      start      => $::auditd::params::service_start,
     }
   }
 
